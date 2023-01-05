@@ -6,7 +6,7 @@ class Do_while_loop{
     int n=sc.nextInt();
     int i=1;
     do{
-      System.out.println("Hi");
+      System.out.println(i+". Hi");
       i++;
     }while(i<=n);
   }
