@@ -12,7 +12,7 @@ public class EvenAndOdd{
   }
   System.out.printf("\nOdd numbers :");
   for(int i=1;i<=user_input;i=i+2){
-     System out.printf("%d ",i);
+     System.out.printf("%d ",i);
   }
   }
 }
