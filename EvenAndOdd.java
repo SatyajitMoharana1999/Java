@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class EvenAndOdd{
   public static void main(String args[]){
   int user_input;
