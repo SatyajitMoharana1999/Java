@@ -11,10 +11,11 @@ public class FindGretterNumber{
     System.out.println("you have to enter "+input+" numbers");
     gretter=0;
     for(int i=1;i<=input;i++){
+      System.out.println("Enter number "+i+":");
       smaller=sc.nextInt();
       gretter=(smaller>gretter)?smaller:gretter;
       
     }
-    Sysrem.out.println("Greatest number "+gretter); 
+    System.out.println("Greatest number "+gretter); 
   }
 }
