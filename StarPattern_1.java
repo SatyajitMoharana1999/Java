@@ -14,7 +14,7 @@ public class StarPattern_1{
 }
 
 
-*/--
+/*--
     input :5
     output: 
             1
@@ -22,4 +22,4 @@ public class StarPattern_1{
             123
             1234
             12345
-      --/*
+      --*/
