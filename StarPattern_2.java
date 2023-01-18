@@ -1,4 +1,4 @@
-import java.util.Scanner
+import java.util.Scanner;
 public class StarPattern_2{
   public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
@@ -11,7 +11,20 @@ public class StarPattern_2{
       for(int k=1;k<=2*i-1;k++){
         System.out.print("*");
       }
+      System.out.println();
     }
-    System.out.println();
   }
 }
+
+
+
+
+/* 
+  Enter 5
+  Output :-  
+                   *
+                  ***
+                 *****
+                *******
+               ********* 
+                              */
