@@ -8,7 +8,7 @@ public static void main(String args[]){
   int a=sc.nextInt();
   System.out.println("Enter the second number");
   int b=sc.nextInt();
-  int lcm;
+  int lcm=0;
   
   for(int i=1;i<=a*b;i++){
     if(i%a==0&&i%b==0){
@@ -16,7 +16,7 @@ public static void main(String args[]){
       break;
     }
   }
-  System.out.format("%d",lcm);
+  System.out.format("LCM is %d",lcm);
  
   }
 }
