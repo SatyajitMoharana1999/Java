@@ -1,6 +1,6 @@
-import java.util.Scannrr;
+import java.util.Scannre;
 public class HCF_of_2_number{
-  public static void main(String a[]){
+  public static void main(String ar[]){
     Scanner s=new Scanner(System.in);
     System.out.println("Enter the first number");
     int a=s.nextInt();
@@ -11,6 +11,7 @@ public class HCF_of_2_number{
     for(int i=sml;i>=1;i--){
       if(a%i==0&&b%i==0){
         hcf=i;
+        break;
       }
     }
     System.out.println("HCF of "+a+" and "+b+" is "+hcf);
