@@ -18,3 +18,13 @@ class StarPattern_3{
     }
   }
 }
+
+
+*/     
+   if input 5
+     output:-
+                       *
+                      ***
+                     *****
+                    *******
+                   *********
