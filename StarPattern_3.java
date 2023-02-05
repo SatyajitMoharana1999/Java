@@ -6,7 +6,7 @@ class StarPattern_3{
     System.out.println("Enter any number");
     int n=s.nextInt();
     for(int i=1;i<=n;i++){
-      for(int j=1;j<=n-i;i++){
+      for(int j=1;j<=n-i;j++){
         System.out.print(" ");
         //loop for creating spaces
       }
